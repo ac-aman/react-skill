@@ -1,6 +1,6 @@
-# react-skill
+# reactjs-skill
 
-[![npm version](https://img.shields.io/npm/v/react-skill.svg?color=blue)](https://www.npmjs.com/package/react-skill)
+[![npm version](https://img.shields.io/npm/v/reactjs-skill.svg?color=blue)](https://www.npmjs.com/package/reactjs-skill)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![React](https://img.shields.io/badge/React-18%20%7C%2019-blue.svg)](https://react.dev)
 [![Next.js](https://img.shields.io/badge/Next.js-App%20Router-black.svg)](https://nextjs.org)
@@ -14,7 +14,7 @@
 ## 📑 Table of Contents
 
 - [📦 Quick Start & Installation](#-quick-start--installation)
-- [🧭 What is `react-skill`?](#-what-is-react-skill)
+- [🧭 What is `reactjs-skill`?](#-what-is-reactjs-skill)
 - [🔒 Strict Rules vs. Flexible Guidelines](#-strict-rules-vs-flexible-guidelines)
 - [🏗️ Architecture Selection Matrix](#️-architecture-selection-matrix)
 - [📖 Core Learning Modules](#-core-learning-modules)
@@ -37,21 +37,21 @@
 
 ### Option 1: Use with `npx-skills` / Agent Skills Ecosystem
 ```bash
-# Add react-skill to your local workspace or agent environment
-npx skills add react-skill
+# Add reactjs-skill to your local workspace or agent environment
+npx skills add reactjs-skill
 ```
 
 ### Option 2: Clone / Install into Antigravity IDE
-Place `react-skill` inside your local workspace or `.agents/skills` / `.gemini/skills` directory:
+Place `reactjs-skill` inside your local workspace or `.agents/skills` / `.gemini/skills` directory:
 ```bash
-git clone https://github.com/ac-aman/react-skill.git .agents/skills/react-skill
+git clone https://github.com/ac-aman/reactjs-skill.git .agents/skills/reactjs-skill
 ```
 
 ---
 
-## 🧭 What is `react-skill`?
+## 🧭 What is `reactjs-skill`?
 
-`react-skill` is an unopinionated yet strict reference and orchestration engine designed for **both human engineers and AI coding assistants** (Antigravity IDE, Claude, Cursor, Copilot).
+`reactjs-skill` is an unopinionated yet strict reference and orchestration engine designed for **both human engineers and AI coding assistants** (Antigravity IDE, Claude, Cursor, Copilot).
 
 ---
 
@@ -79,15 +79,15 @@ git clone https://github.com/ac-aman/react-skill.git .agents/skills/react-skill
 
 ## 🏗️ Architecture Selection Matrix
 
-`react-skill` includes 5 complete architecture reference specifications:
+`reactjs-skill` includes 5 complete architecture reference specifications:
 
 | Architecture Pattern | Primary Use Case | Key Characteristic | Reference Guide |
 | :--- | :--- | :--- | :--- |
-| **Feature-Driven (Vertical Slice)** *(Default)* | Medium-to-large production web apps | Grouped by business domain (`features/auth`, `features/checkout`) with public `index.ts` API barriers | [`references/architectures/feature-driven.md`](./skills/react-skill/references/architectures/feature-driven.md) |
-| **Next.js App Router** | Next.js 13+ / 14 / 15 web apps | React Server Components (RSC), Client Leaf components, Route Groups, Server Actions | [`references/architectures/nextjs-app-router.md`](./skills/react-skill/references/architectures/nextjs-app-router.md) |
-| **Layered (Horizontal)** | Small SPAs, prototypes, single-purpose apps | Separation by file type (`components/`, `hooks/`, `services/`, `store/`) | [`references/architectures/layered.md`](./skills/react-skill/references/architectures/layered.md) |
-| **Clean Architecture (Hexagonal)** | Complex enterprise apps & heavy client logic | Decouples pure domain entities and use cases from React UI frameworks and network clients | [`references/architectures/clean-architecture.md`](./skills/react-skill/references/architectures/clean-architecture.md) |
-| **Atomic Design** | Design systems & UI component libraries | Hierarchy: Atoms → Molecules → Organisms → Templates → Pages | [`references/architectures/atomic-design.md`](./skills/react-skill/references/architectures/atomic-design.md) |
+| **Feature-Driven (Vertical Slice)** *(Default)* | Medium-to-large production web apps | Grouped by business domain (`features/auth`, `features/checkout`) with public `index.ts` API barriers | [`references/architectures/feature-driven.md`](./skills/reactjs-skill/references/architectures/feature-driven.md) |
+| **Next.js App Router** | Next.js 13+ / 14 / 15 web apps | React Server Components (RSC), Client Leaf components, Route Groups, Server Actions | [`references/architectures/nextjs-app-router.md`](./skills/reactjs-skill/references/architectures/nextjs-app-router.md) |
+| **Layered (Horizontal)** | Small SPAs, prototypes, single-purpose apps | Separation by file type (`components/`, `hooks/`, `services/`, `store/`) | [`references/architectures/layered.md`](./skills/reactjs-skill/references/architectures/layered.md) |
+| **Clean Architecture (Hexagonal)** | Complex enterprise apps & heavy client logic | Decouples pure domain entities and use cases from React UI frameworks and network clients | [`references/architectures/clean-architecture.md`](./skills/reactjs-skill/references/architectures/clean-architecture.md) |
+| **Atomic Design** | Design systems & UI component libraries | Hierarchy: Atoms → Molecules → Organisms → Templates → Pages | [`references/architectures/atomic-design.md`](./skills/reactjs-skill/references/architectures/atomic-design.md) |
 
 ---
 
@@ -300,11 +300,11 @@ Enforce Zod schema validation, explicit input labels with `aria-describedby`, ac
 ## 📂 Repository Directory Structure
 
 ```text
-react-skill/
+reactjs-skill/
 ├── package.json                                 # Package manifest
 ├── README.md                                     # NPM-style documentation & guide
 └── skills/
-    └── react-skill/
+    └── reactjs-skill/
         ├── SKILL.md                             # AI Agent execution manifest & workflow
         └── references/                          # Detailed technical documentation
             ├── architectures/                   # 5 Architecture Specifications
@@ -332,30 +332,30 @@ react-skill/
 
 ## 🤖 AI Agent Invocation & Usage
 
-When using Antigravity IDE or compatible agent tools, `react-skill` activates automatically when you prompt for React architectural guidance or development tasks.
+When using Antigravity IDE or compatible agent tools, `reactjs-skill` activates automatically when you prompt for React architectural guidance or development tasks.
 
 ### Manual Example Prompts:
-> **Prompt 1**: "Use `react-skill` to create a Feature-Driven architecture layout for an e-commerce dashboard with Vite and Zustand."
+> **Prompt 1**: "Use `reactjs-skill` to create a Feature-Driven architecture layout for an e-commerce dashboard with Vite and Zustand."
 >
-> **Prompt 2**: "Refactor `UserProfile.tsx` following `react-skill` guidelines: chunk the logic into custom hooks, enforce TypeScript type safety with AbortController cleanup, and convert hardcoded colors to Tailwind theme tokens."
+> **Prompt 2**: "Refactor `UserProfile.tsx` following `reactjs-skill` guidelines: chunk the logic into custom hooks, enforce TypeScript type safety with AbortController cleanup, and convert hardcoded colors to Tailwind theme tokens."
 >
-> **Prompt 3**: "Set up Redux Toolkit for our authentication feature using the `react-skill` Redux guidelines (`configureStore`, `createSlice`, and typed hooks)."
+> **Prompt 3**: "Set up Redux Toolkit for our authentication feature using the `reactjs-skill` Redux guidelines (`configureStore`, `createSlice`, and typed hooks)."
 
 ---
 
 ## 🔗 Reference Guides Index
 
-- 🛡️ [Security & Accessibility (a11y) Standards [STRICT]](./skills/react-skill/references/guidelines/security-and-a11y.md)
-- 📋 [Form Validation & Production UI Micro-Details [STRICT]](./skills/react-skill/references/guidelines/forms-and-ui-microdetails.md)
-- 🟦 [TypeScript Standards & Memory Leak Prevention [STRICT]](./skills/react-skill/references/guidelines/typescript.md)
-- 🧠 [State Management & React Redux (RTK)](./skills/react-skill/references/guidelines/state-management.md)
-- 🌐 [Data Fetching, Pagination & Loaders](./skills/react-skill/references/guidelines/data-fetching.md)
-- 🎨 [Styling, Tailwind CSS & Enterprise UI](./skills/react-skill/references/guidelines/styling-and-ui.md)
-- 📂 [Folder Structure & File Naming](./skills/react-skill/references/guidelines/folder-structure.md)
-- 🧩 [Component Design & Code Chunking](./skills/react-skill/references/guidelines/component-design.md)
-- ⚡ [Performance & Virtualization](./skills/react-skill/references/guidelines/performance.md)
-- 🧪 [Testing Strategy (Vitest, RTL, Playwright)](./skills/react-skill/references/guidelines/testing.md)
-- 🔗 [Official Documentation Links](./skills/react-skill/references/guidelines/official-docs-and-resources.md)
+- 🛡️ [Security & Accessibility (a11y) Standards [STRICT]](./skills/reactjs-skill/references/guidelines/security-and-a11y.md)
+- 📋 [Form Validation & Production UI Micro-Details [STRICT]](./skills/reactjs-skill/references/guidelines/forms-and-ui-microdetails.md)
+- 🟦 [TypeScript Standards & Memory Leak Prevention [STRICT]](./skills/reactjs-skill/references/guidelines/typescript.md)
+- 🧠 [State Management & React Redux (RTK)](./skills/reactjs-skill/references/guidelines/state-management.md)
+- 🌐 [Data Fetching, Pagination & Loaders](./skills/reactjs-skill/references/guidelines/data-fetching.md)
+- 🎨 [Styling, Tailwind CSS & Enterprise UI](./skills/reactjs-skill/references/guidelines/styling-and-ui.md)
+- 📂 [Folder Structure & File Naming](./skills/reactjs-skill/references/guidelines/folder-structure.md)
+- 🧩 [Component Design & Code Chunking](./skills/reactjs-skill/references/guidelines/component-design.md)
+- ⚡ [Performance & Virtualization](./skills/reactjs-skill/references/guidelines/performance.md)
+- 🧪 [Testing Strategy (Vitest, RTL, Playwright)](./skills/reactjs-skill/references/guidelines/testing.md)
+- 🔗 [Official Documentation Links](./skills/reactjs-skill/references/guidelines/official-docs-and-resources.md)
 
 ---
 

@@ -1,8 +1,8 @@
 {
-  "name": "react-skill",
+  "name": "reactjs-skill",
   "version": "1.0.0",
   "description": "An open AI Agent Skill for building robust, secure, and production-ready React.js applications across all frameworks.",
-  "main": "skills/react-skill/SKILL.md",
+  "main": "skills/reactjs-skill/SKILL.md",
   "files": [
     "skills",
     "README.md",
@@ -26,12 +26,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ac-aman/react-skill.git"
+    "url": "git+https://github.com/ac-aman/reactjs-skill.git"
   },
   "author": "ac-aman",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ac-aman/react-skill/issues"
+    "url": "https://github.com/ac-aman/reactjs-skill/issues"
   },
-  "homepage": "https://github.com/ac-aman/react-skill#readme"
+  "homepage": "https://github.com/ac-aman/reactjs-skill#readme"
 }

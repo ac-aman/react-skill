@@ -1,5 +1,5 @@
 ---
-name: react-skill
+name: reactjs-skill
 description: Execution guide for building, architecting, and refactoring React applications across all frameworks (Vite, Next.js, Remix, React Native) using scalable folder structures, clean component design, version-aware UI libraries, state management (Redux Toolkit, Zustand), form validation, and evidence-based implementation.
 license: MIT
 metadata:
