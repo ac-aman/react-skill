@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build and dist outputs
+dist/
+build/
+*.tgz
+
+# Environment & Logs
+.env
+.env.local
+*.log
+
+# System & OS
+.DS_Store
+Thumbs.db
+
+# IDE & Editors
+.vscode/
+.idea/
+*.suo
+*.user

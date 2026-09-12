@@ -1,0 +1,37 @@
+{
+  "name": "react-skill",
+  "version": "1.0.0",
+  "description": "An open AI Agent Skill for building robust, secure, and production-ready React.js applications across all frameworks.",
+  "main": "skills/react-skill/SKILL.md",
+  "files": [
+    "skills",
+    "README.md",
+    "LICENSE",
+    "CONTRIBUTING.md"
+  ],
+  "keywords": [
+    "react",
+    "reactjs",
+    "nextjs",
+    "vite",
+    "redux",
+    "agent-skill",
+    "skills",
+    "npx-skills",
+    "antigravity",
+    "ai-agent",
+    "claude",
+    "cursor",
+    "copilot"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ac-aman/react-skill.git"
+  },
+  "author": "ac-aman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ac-aman/react-skill/issues"
+  },
+  "homepage": "https://github.com/ac-aman/react-skill#readme"
+}
