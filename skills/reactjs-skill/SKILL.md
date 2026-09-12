@@ -4,7 +4,7 @@ description: Execution guide for building, architecting, and refactoring React a
 license: MIT
 metadata:
   author: "ac-aman"
-  version: "1.0.4"
+  version: "1.0.1"
   tags:
     - react
     - reactjs
